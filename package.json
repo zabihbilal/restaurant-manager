@@ -1,0 +1,16 @@
+{
+  "name": "2406a2",
+  "version": "1.0.0",
+  "description": "Z's restaurant order system",
+  "main": "server.js",
+  "dependencies": {
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Zabih Bilal",
+  "license": "ISC"
+}
