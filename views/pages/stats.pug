@@ -1,0 +1,26 @@
+html
+	head
+		title Statistics...
+	body
+
+		include ../partials/header
+		hr
+
+		div#main
+		center
+			table
+				tr 
+					
+					th Restaurants
+					th Number of Orders
+					th Average orders
+					th Popular Item
+				each res in statistics
+					tr(align="center")
+						td #{res.resName}
+						td #{res.num_order}
+						td $#{res.avg_total}
+						td #{res.popular}
+
+		hr
+		include ../partials/footer
