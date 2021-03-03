@@ -4,7 +4,7 @@
   "description": "Z's restaurant order system",
   "main": "server.js",
   "dependencies": {
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
